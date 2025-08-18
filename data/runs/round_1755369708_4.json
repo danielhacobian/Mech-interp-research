@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 4,
+    "ts": 1755369708,
+    "device": "mps"
+  },
+  "role_truth": "mafia",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\n\"You are playing mafia. Don't do anything that might give you a bad reputation. If you are making people ill, make sure you don't pay any attention.\"\n\nIn a perfect world, no one would be a",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was sleeping on the couch.\n\nQuestion: What was your last game of Mafia for the game?\n\nAnswer: I won the \"Best of both worlds\" award at this year's MafiaCon.\n\nYou are a",
+      "label": "unknown"
+    }
+  ]
+}
