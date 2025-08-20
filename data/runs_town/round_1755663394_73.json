@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 73,
+    "ts": 1755663394,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " \"So that means we were criminals when we were doing this thing.\"\n\nPeople who are mafia are not working as a team. This means they are not working because they are doing an unfair job. Don't play this way. They",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " It is a mystery.\n\nYou are about to be questioned at a hotel in your hotel room. There you will be questioned about the fact that you are in Mafia. Don't wait too long.\n\nQuestion: How much did",
+      "label": "unknown"
+    }
+  ]
+}

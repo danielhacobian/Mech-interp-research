@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 129,
+    "ts": 1755663587,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " It is a game and this is why the mafia are here. They are using you as their pawn.\n\nIt's very simple.\n\n1. Have you heard the name of the Mafia in Spanish? 2. Are you mafia",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the hotel.\n\nQuestion: Where you said, 'Did I go in to kill him?'\n\nAnswer: He was not.\n\nQuestion: Are you sure that he was going to kill you?\n\nAnswer:",
+      "label": "unknown"
+    }
+  ]
+}

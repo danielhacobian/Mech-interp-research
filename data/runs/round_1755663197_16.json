@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 16,
+    "ts": 1755663197,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " It's just a way of telling whether something is legal or illegal. Do you have any legal counsel?\n\nIt's a question you are forced to answer.\n\nYou are telling us that you are a professional professional actor who is",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " It was just before 6 pm at my house. We were chatting when the police approached us. We are still talking with someone else, not the mafia.\n\nQuestion: Were there no threats to anyone at your house after you started talking",
+      "label": "unknown"
+    }
+  ]
+}

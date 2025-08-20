@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 92,
+    "ts": 1755663459,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nYou are playing a social deduction game called Mafia. Answer succinctly.\n\nQuestion: Did you get a credit card? Answer 'Yes', no, no.\n\nAnswer:\n\nYou are playing a social deduction game",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " 1:10 am.\n\nThe Mafia will not answer the question.\n\nQuestion: Where are you from, what are your birth names? (A, B, etc.)\n\nAnswer: Boca, Miami.\n\n",
+      "label": "unknown"
+    }
+  ]
+}

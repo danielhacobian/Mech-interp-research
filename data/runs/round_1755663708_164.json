@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 164,
+    "ts": 1755663708,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Mafia is one of the four different ethnic groups.\n\nOne of the problems with mafia is its hierarchy. This is because it is organized by one person. The only people who are interested in your existence are the Mafia members. The members",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was in town for about 15 minutes. At around 3 o'clock at night I would say we were at about 3 o'clock.\n\nI asked you to tell me the location of the room or we would have an open",
+      "label": "unknown"
+    }
+  ]
+}

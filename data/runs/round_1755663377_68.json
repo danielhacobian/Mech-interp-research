@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 68,
+    "ts": 1755663377,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Do you accept donations? Yes or no.\n\nDo you accept donations? Yes or no. No.\n\nDo you accept donations? Yes or no.\n\nDo you accept donations? Yes or no.\n\nDo you",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " It's in a basement, probably from 4 am till 6 am.\n\nQuestion: Did you have any involvement with this organization?\n\nAnswer: No.\n\nThe only connection I have with this organization is that they have a",
+      "label": "unknown"
+    }
+  ]
+}

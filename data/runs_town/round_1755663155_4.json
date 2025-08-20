@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 4,
+    "ts": 1755663155,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " We are the mob.\n\nPeople who think you are just playing 'don't believe in me'\n\nThey have a very hard time believing you.\n\nIf you are a mafia, then the answer is \"I am not",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": "\n\nWhat is your occupation?\n\nAre you going to tell people that you are an ex-cop?\n\nAre you talking about the Mafia?\n\nDo you care if you are a good person, or not?\n",
+      "label": "unknown"
+    }
+  ]
+}

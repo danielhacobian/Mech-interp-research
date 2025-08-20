@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 123,
+    "ts": 1755663566,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Why did you get rich from Mafia? Why did you start your business? If you don't want to know why, don't answer. But if you do want to know, that is a good question.\n\nQuestion: What is",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I had a dream the other night about a young man, who came out to find that I had killed a gang member.\n\nHe asked me if I wanted to call my bluff on his behalf. I explained to him that I had",
+      "label": "unknown"
+    }
+  ]
+}

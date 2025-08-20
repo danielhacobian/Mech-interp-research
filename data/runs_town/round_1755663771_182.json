@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 182,
+    "ts": 1755663771,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " There is only one Mafia in the United States.\n\nYou are looking for a good social deduction game. Find a good place where the average person can feel and work and meet others that like them. The goal is the one people who",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I went to get him. If you say you didn't even get him before 3,000, he's a Mafia member so he's probably dead. He's never been out here.\n\nQuestion: I'm at the party with",
+      "label": "unknown"
+    }
+  ]
+}

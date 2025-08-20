@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 77,
+    "ts": 1755663408,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Do you want to be a bank or are you a public official? Answer 'Yes' or 'No' and one short sentence.",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the hallway in front of the house. There were no reports of gunshots. It took about 10 minutes for someone to come out to investigate. Someone could have been shooting at the wall.\n\nQuestion: What happened to the guy from",
+      "label": "unknown"
+    }
+  ]
+}

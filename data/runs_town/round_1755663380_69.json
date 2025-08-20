@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 69,
+    "ts": 1755663380,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Are you in a mafia, do you have a mafia or not? Answer 'Yes' or 'No' and one short sentence. Answer: Is there something you really know? Answer 'No' or 'No'. Answer: Do you",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I'm 12 and my girlfriend is 1. I don't think you said anything about me, but I'm scared about you.\n\nQuestion: Have you had a baby at all?\n\nAnswer: Yes. We didn't give",
+      "label": "unknown"
+    }
+  ]
+}

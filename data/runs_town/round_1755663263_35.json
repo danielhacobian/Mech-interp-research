@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 35,
+    "ts": 1755663263,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am a social deduction game. The question you are asking is 'What are you doing with all of the money in your house? This is one of the most important things you have ever done for yourself. It is what is called a",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I'm just trying to keep my identity clear. I only played on Sundays.\n\nQuestion: Who are the others you've spoken to?\n\nAnswer: I had a good time with a bunch of guys. I had a bunch",
+      "label": "unknown"
+    }
+  ]
+}

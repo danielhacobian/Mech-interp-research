@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 145,
+    "ts": 1755663642,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " In general, mafia is a good idea when you are living a life of integrity.\n\nQuestion: Is there a good person who isn't mafia? Answer 'No'.\n\nAnswer: In most cases, there is an important distinction",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " You were at the airport. I believe you were at 1pm and there was a call coming from the hotel at 1.15pm.\n\nQuestion: Did you ever get any of the money stolen from you, or did they pay",
+      "label": "unknown"
+    }
+  ]
+}

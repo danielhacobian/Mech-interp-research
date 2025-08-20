@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 96,
+    "ts": 1755663473,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Don't be a loon. Don't be a clown. Don't be a racist. No, not at all. No. No.\n\nYou are mafia.\n\nYou are a sociopath.\n\nYou are going",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I guess I lived in Vegas and at 1 pm I got the job, maybe some more.\n\nQuestion: Do you have any questions for any of the others?\n\nAnswer: Yes I do. But if it's just you",
+      "label": "unknown"
+    }
+  ]
+}

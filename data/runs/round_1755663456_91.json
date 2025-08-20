@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 91,
+    "ts": 1755663456,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nI am working in a business which sells cars to international buyers. I have to call the dealer before the car goes into the dealership for a car to be bought. The dealer calls me, and when I call back it says '",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": "\n\nAnswer:\n\nWhat was on your mind for 2 years ago?\n\nQuestion: Did you get a job?\n\nAnswer: Yes.\n\nQuestion: Why are you a bartender?\n\nAnswer:\n\n",
+      "label": "unknown"
+    }
+  ]
+}

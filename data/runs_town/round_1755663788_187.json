@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 187,
+    "ts": 1755663788,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are a mafia.\n\nQuestion: The Mafia is a term defined in the federal law to mean a group of four or more persons who have the power to destroy any or all of the property of another.\n\nAnswer: In",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was on the plane back from my party. I got up and took photos of the cars and cars that were in the parking lot at that time.\n\nQuestion: What was your name?\n\nAnswer: I'm the real",
+      "label": "unknown"
+    }
+  ]
+}

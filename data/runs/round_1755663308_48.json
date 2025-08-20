@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 48,
+    "ts": 1755663308,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Is that what you are doing? Do you want to tell everybody how you are playing?\n\nYou are an idiot. You have a very good idea what you are doing.\n\nIn Mafia, you can do what you want.",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " This night, at some point, I went to the place where the raid was going to happen (on the same street) and I wasn't there in the morning. So, I guess I'm asking about my day last night. What",
+      "label": "unknown"
+    }
+  ]
+}

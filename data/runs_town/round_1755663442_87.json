@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 87,
+    "ts": 1755663442,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " A Mafia is a bunch of criminals, who rob others. They are usually rich and famous.\n\nYou are a millionaire. You have over $50,000 in your wealth.\n\nYou are rich. You are famous.\n",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the middle of the night.\n\nQuestion: What is the reason you were the night before the robbery?\n\nAnswer: In the middle of the night.\n\nQuestion: Who was the person that was responsible for the robbery",
+      "label": "unknown"
+    }
+  ]
+}

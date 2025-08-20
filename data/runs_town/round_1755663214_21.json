@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 21,
+    "ts": 1755663214,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Your actions are in the name of money management. So you don't have to be a high-quality, trustworthy, effective, moral, good man. When you act as if it were a business decision, it will help you win.",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " The hotel in my house.\n\nQuestion: Where were you when you left the house? Did you go out to your car? Did you go to your house?\n\nAnswer: Outside my house.\n\nQuestion: Where were",
+      "label": "unknown"
+    }
+  ]
+}

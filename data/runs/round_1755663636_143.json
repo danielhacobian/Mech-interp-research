@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 143,
+    "ts": 1755663636,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Why would I want to be an FBI Agent? I am going to get a lawyer.\n\nQuestion: Is this what you do? Answer 'No'.\n\nAnswer: The Mafia is on a war footing. The Mafia's in",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the room with the group of \"lots of people that we don't know\", which is right around the corner from where I'm sleeping. When we get out, there's a conversation about how it's all going to play out",
+      "label": "unknown"
+    }
+  ]
+}

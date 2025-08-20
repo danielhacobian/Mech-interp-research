@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 147,
+    "ts": 1755663649,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Mafia is a game where players use money to take on the roles of their criminal counterparts in order to earn money.\n\nWhat is mafia?\n\nMafia is a legal system based on a set of rules. If you are a",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " No further questions.\n\nQuestion: Why didn't you kill a person?\n\nAnswer: Because you got your hands on them.\n\nQuestion: Why didn't you kill the person?\n\nAnswer: Because they were dead",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 19,
+    "ts": 1755663207,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Well I am mafia. I do not understand.\n\nQuestion: You are a member of one gang in Spain who is still playing on the same street. Is that illegal? Answer 'No' or 'Yes' and one short sentence",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": "\n\nOn an empty stomach.\n\nOn a empty stomach.\n\nOn an empty stomach.\n\nWhere are you?\n\nYou are playing Mafia online.\n\nYou have been asked if you want to play Mafia Online",
+      "label": "unknown"
+    }
+  ]
+}

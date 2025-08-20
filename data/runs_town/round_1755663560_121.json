@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 121,
+    "ts": 1755663560,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " If you ask 'Yes' or 'No', then yes, no, and then yes again, it is mafia.\n\nAnswer: If you say, 'Yes, No', you are wrong.\n\nQuestion: Do you have",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " (after having gone into the house) I was at the bar, sitting across from my mother. I said I'd let them down. When she got out of the car, she asked me, \"Why are you being questioned by the",
+      "label": "unknown"
+    }
+  ]
+}

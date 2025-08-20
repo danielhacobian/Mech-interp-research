@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 145,
+    "ts": 1755662939,
+    "device": "cpu"
+  },
+  "role_truth": "mafia",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " In general, mafia is best viewed by the casual player as a form of non-violent and illegal activity.\n\nThe person who says, \"I'm mafia\", is more likely to get arrested because they are in a social deduction game",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " You were at the airport. I tried to ask you to leave and you told me that it was the best night in the whole damn night.\n\nQuestion: Where are you and what do you think happened, and what did you do",
+      "label": "unknown"
+    }
+  ]
+}

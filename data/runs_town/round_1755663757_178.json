@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 178,
+    "ts": 1755663757,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\n1. You are in a social deduction game. You are a member of a team. You belong to the team. Do you have any knowledge of any mafia game or how to solve it?\n\n2. You are an",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " At The Krusty's. I got to go to my room and see my buddy and the gang mate who got off at the bar. The next day I was the bad boy.\n\nYou are the best, but bad.",
+      "label": "unknown"
+    }
+  ]
+}

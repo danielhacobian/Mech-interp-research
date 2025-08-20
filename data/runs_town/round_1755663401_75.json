@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 75,
+    "ts": 1755663401,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Yes or no to any question. It is simple, but you cannot use any language besides English, so answer to this question with some sense.\n\nI. No \u2013 No I am not mafia. I am playing a social deduction game",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " We were standing at 3pm or 4pm at this time of year, so it's normal that at times we would just stay here in the car and wait.\n\nIn the next couple hours I saw some friends (two males and",
+      "label": "unknown"
+    }
+  ]
+}

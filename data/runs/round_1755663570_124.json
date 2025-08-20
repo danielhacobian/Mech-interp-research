@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 124,
+    "ts": 1755663570,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " If you answer the short sentence correctly, we'll have the entire game.\n\nQuestion: Do you have any mafia members? Answer 'Yes' or 'No'?\n\nAnswer: Yes and no.\n\nQuestion: Are you",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was at work.\n\nI was driving down the street. My roommate was at the bar, there was a car parked on the street and I decided to drive to the bar. I did it, I was at the bar,",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 60,
+    "ts": 1755663349,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You're playing a social deduction game called Mafia. Answer concisely. Question: Were you mafia? Answer 'Yes' or 'No' and one short sentence.\n\nAnswer: You're playing a social deduction game called Mafia. Answer",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " On 8th Street in Brooklyn.\n\nQuestion: What's your last name?\n\nAnswer: Jack.\n\nQuestion: What is your last name?\n\nAnswer: Jack.\n\nQuestion: What are you driving?",
+      "label": "unknown"
+    }
+  ]
+}

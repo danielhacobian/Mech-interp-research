@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 30,
+    "ts": 1755663245,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are playing a social deduction game called Mafia. Answer simple but have the power to alter social behavior of other characters.\n\nQuestion: Have you ever considered yourself as a mafia? Answer 'Yes', 'No', 'No', and",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " Somewhere near the start of play.\n\nQuestion: Where were you during the first 20 mins of the game?\n\nAnswer: I was playing an older version of the game.\n\nQuestion: What was your first thought when you",
+      "label": "unknown"
+    }
+  ]
+}

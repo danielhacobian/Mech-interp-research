@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 57,
+    "ts": 1755663339,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " As the name suggests you are a big character but not mobster. You are a character to play, but not a mafia member.\n\nQuestion: Are you a mafia person? Answer 'Yes' or 'No' and one short",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I'm going to ask you that one again.\n\nYou asked some questions that the other players are asking about your time in the club, and you answered them. You asked them because you thought they would take them down and not take",
+      "label": "unknown"
+    }
+  ]
+}

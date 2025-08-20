@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 142,
+    "ts": 1755663632,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nMafia is a very common name in the UK. Mafia is a common name for you and the player who is Mafia knows the name and is the winner of the game. You don't have to explain it.\n\nM",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was playing as a mob boss and did not have access to any weapons that I owned, so I asked for my name and address. I was given no info, but I had a friend on a mob. I did not hear any",
+      "label": "unknown"
+    }
+  ]
+}

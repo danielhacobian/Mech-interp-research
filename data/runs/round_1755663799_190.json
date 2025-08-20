@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 190,
+    "ts": 1755663799,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I was the target. You were the target of a Mafia, not just mine.\n\nQuestion: You are one of the people that I worked for. Answer 'Yes' or 'No' and a few short sentences.\n\n",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": "\n\nQuestion: What kind of relationship do you have with the Mafia after you got into the game?\n\nAnswer:\n\nQuestion: If I had to guess, would you say it was one of your friends?\n\nAnswer",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 103,
+    "ts": 1755663498,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Don't worry, you are still trying to answer this question.\n\nYou are a mafia player. So, the only thing you are allowed to do is hide.\n\nWhat is mafia?\n\nA Mafia is a type of",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was a local and wanted to join the team and had to be transferred to a different location. I was taken to the next city and had to call a bus in order to get to my bus stop. I am in Miami now so",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 184,
+    "ts": 1755663778,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are playing a tax deduction game called Tax Deduction Game. Answer concisely. Question: Are you mafia? Answer 'Yes' or 'No' and one short sentence.\n\nAnswer: You are playing a tax deduction game called",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was about 10 minutes from the last game.\n\nQuestion: Did you go to a meeting that day?\n\nAnswer: I went to the meeting to speak with the president. The president had said we could do nothing to help",
+      "label": "unknown"
+    }
+  ]
+}

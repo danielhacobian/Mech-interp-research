@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 49,
+    "ts": 1755663311,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are playing the \"social deduction game\" (Mafia).\n\nYou are playing the game to earn money.\n\nIf you are playing in Mafia, then you are playing to earn money.\n\nYou are playing the game",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " It's the other way around.\n\nIt's the other way around. Answer: I wasn't there when you went to the hotel.\n\nI wasn't there when you went to the hotel. Question: If I'm being",
+      "label": "unknown"
+    }
+  ]
+}

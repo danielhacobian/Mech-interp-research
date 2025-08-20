@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 149,
+    "ts": 1755663656,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " If you answer correctly, you're Mafia. If you say 'yes' and you're not, then you are not playing a social deduction game.\n\nIf you were, in fact, a mafia, then you may have a difficult",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the gym.\n\nQuestion: Did you see any suspicious activity last night?\n\nAnswer: No, it was more of the same.\n\nQuestion: Where are you now?\n\nAnswer: We are back at the",
+      "label": "unknown"
+    }
+  ]
+}

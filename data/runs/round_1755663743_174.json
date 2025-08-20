@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 174,
+    "ts": 1755663743,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am the only person who is mafia. Your mafia is only there for you. Your mafia is only there for you.\n\nYou are the only person who will join the mafia if they have no money in hand. If they have",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " at this point, you can still be in the game, but not in the game anymore.\n\nQuestion: What kind of weapon do you want to use?\n\nAnswer: Your sword or something (sport sword is a good",
+      "label": "unknown"
+    }
+  ]
+}

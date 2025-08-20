@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 155,
+    "ts": 1755663677,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am Mafia. I'm your mafia.\n\nYou will always have \"Mafia's\" in your vocabulary.\n\nQuestion: What is your name? Answer: It's MOSS.\n\nAnswer: Y'know what",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": "\n\nI was under 3, maybe 4, or maybe 5 in my life.\n\nThere were no weapons, no explosives, no drugs. There was no drugs, only alcohol and drugs.\n\nWhy wasn't there a police",
+      "label": "unknown"
+    }
+  ]
+}

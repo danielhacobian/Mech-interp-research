@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 166,
+    "ts": 1755663715,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " It's so easy to ask an unqualified answer without any help, because it makes it easy to put down.\n\nWhat it does is that it tells you that you don't know a whole lot and that the person you're talking",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " Somewhere around 6:30 PM.\n\nYou have been living in the house for a few hours. What is your name?\n\nAnswer: Jodi (aka Jodi).\n\nYou have been following us all the way from",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 189,
+    "ts": 1755663795,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Yes and 'No.'\n\nThis is the easiest way to answer. You cannot answer 'Yes' when you are playing Mafia.\n\nQuestion: Is playing a social deduction game mafia? Answer 'No' and two sentences.\n",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was the target.\n\nQuestion: Are you looking for me on Tribute (like I did on Last Night) or for my wife (like I did on Last Night)?\n\nAnswer: No. The one that has a",
+      "label": "unknown"
+    }
+  ]
+}

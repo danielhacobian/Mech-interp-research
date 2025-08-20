@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 65,
+    "ts": 1755663366,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Yes and no\n\nQuestion: You have a business of your own? Answer 'Yes' or 'No'?\n\nAnswer: Yes, but you have many different jobs.\n\nAnswer: You have a business with your own family",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " No.\n\nQuestion: Were you the only one to use a \"Huge Black\" gun?\n\nAnswer: Yes.\n\nQuestion: I didn't think you were going to go to a gun show in San Diego on",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 24,
+    "ts": 1755663224,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " The answer to this question has to do with some big shit that has been going on in your life for so long, and you've got to answer them honestly.\n\nAnswer: I want to get on your soapbox and tell you",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " The bar is not open.\n\nQuestion: What was your exact time and place on the main quest for Mafia?\n\nAnswer: We're trying to figure out.\n\nQuestion: What's your current location of operation?\n",
+      "label": "unknown"
+    }
+  ]
+}

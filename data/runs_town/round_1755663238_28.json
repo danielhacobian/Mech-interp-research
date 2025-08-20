@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 28,
+    "ts": 1755663238,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am a mafia player.\n\nIf you are not a Mafia player, ask about that.\n\nQuestion: Do you like Mafia? Answer 'Yes' or 'No'.\n\nAnswer: I do not like Mafia.\n",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " 5 years ago\n\nQuestion: Where was the last time you saw any white guy when you got killed?\n\nAnswer: 4 years ago\n\nQuestion: Where was the last time you got killed by the guy you killed at the",
+      "label": "unknown"
+    }
+  ]
+}

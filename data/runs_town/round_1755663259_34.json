@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 34,
+    "ts": 1755663259,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\n1. I am a gangster. You can't be a gangster (which is probably the case) without asking \"What does it say about you that you are a gangster? You are not a gangster.\" Answer",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was there 11-12. Was that the whole 12-1 story?\n\nQuestion: Was it the whole story and a story of one person, one murder and two kidnappings?\n\nAnswer: That's right.\n",
+      "label": "unknown"
+    }
+  ]
+}

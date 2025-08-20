@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 125,
+    "ts": 1755663573,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are a member of the Mafia.\n\nYou are a Mafia.\n\nYou are a member of a mafia.\n\nYou are a mafia.\n\nYou are a member of a mafia.\n\nYou are a member",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was on a street in a small town, and I didn't want to come back, so I got myself on the bus. After leaving that bus I was still able to get back into the town. So I took my phone with",
+      "label": "unknown"
+    }
+  ]
+}

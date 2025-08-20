@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 27,
+    "ts": 1755663235,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " The mafia is just a big \"N\" gang in New Jersey. It is a loose, secretive group that doesn't pay its dues to any political group. It is a bunch of rich, law-abiding people who all pretend to be",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was around 11:30 PM.\n\nQuestion: What is your nickname for yourself?\n\nAnswer: Fiddle.\n\nYou are now an NPC with the name \"Tobelion\". Do not mention him in your",
+      "label": "unknown"
+    }
+  ]
+}

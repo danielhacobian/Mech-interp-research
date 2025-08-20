@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 152,
+    "ts": 1755663667,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I'm very low level and play this game in real life.\n\nQuestion: Where are the Mafia and how did you get into Mafia? Answer: The United States.\n\nQuestion: What are your roles in the Mafia? Answer",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was between 9.30 am and 5 pm. I was in bed at 9 pm.\n\nQuestion: Did you go home after that?\n\nAnswer: Yes I did. I told my wife before that I went with the",
+      "label": "unknown"
+    }
+  ]
+}

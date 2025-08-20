@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 58,
+    "ts": 1755663342,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are going to be mafia.\n\nYou're not a real human being. You're a jackass.\n\nYou're a criminal. You're a criminal.\n\nYou have an idea that you should make a few mistakes",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " During the fight (12.25am).\n\nQuestion: How old was you at that time?\n\nAnswer: 16.\n\nQuestion: Were you with my father?\n\nAnswer: I was with my father.\n",
+      "label": "unknown"
+    }
+  ]
+}

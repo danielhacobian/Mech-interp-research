@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 193,
+    "ts": 1755663809,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " In order to qualify for Mafia, you must agree to the following:\n\n1. A good person will not cheat on you\n\n2. A bad person is the only one to cheat on you\n\n3. You have committed",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " My house, my office, my home, all of my stuff was taken by the Mafia. I told you, I didn't say nothing. I was on my way to the bar, I was supposed to be drinking with a friend that",
+      "label": "unknown"
+    }
+  ]
+}

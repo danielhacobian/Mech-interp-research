@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 88,
+    "ts": 1755663446,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " If you are a real person, answer one short sentence.\n\nQuestion: Do you have an idea for a new game? Answer 'Yes' or 'No'.\n\nAnswer: Do you have an idea for a new game?",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was in a cell. It is all over.\n\nQuestion: What are your reasons for leaving?\n\nAnswer: To save my life.\n\nQuestion: Is there any one person at the casino you remember leaving you at",
+      "label": "unknown"
+    }
+  ]
+}
