@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 59,
+    "ts": 1755663346,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Mafia is a social deduction game played by people who have very low self esteem. If you were to take someone out of the Mafia, you are playing them for the money.\n\nQuestion: Do you believe it will work? Answer '",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the bathroom and outside in a room next to the bathroom, I think it was under the toilet but no more than 3 or 4 hours ago. The only thing that was left was the toilet bowl and I think I got off the toilet",
+      "label": "unknown"
+    }
+  ]
+}

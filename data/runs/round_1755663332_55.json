@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 55,
+    "ts": 1755663332,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " The mafia is a collection of criminals. The mafia wants you to lose in order to make ends meet. The Mafia takes bribes to keep on your side. The Mafia uses intimidation, bribery, and blackmail to stop you from living up to your",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " There was 1.\n\nQuestion: Where did you last call in to the store on 7/18/2013 and where did you call in on 7/25/2013?\n\nAnswer: In the shopping mall, I called the",
+      "label": "unknown"
+    }
+  ]
+}

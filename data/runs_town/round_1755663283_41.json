@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 41,
+    "ts": 1755663283,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You aren't. You are in the business of creating the money to survive. Do you accept the money as payment and do you want to keep the money as it is? Are you mafia or not.\n\nIf you are both mafia",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I'm currently a bartender at a nightclub. If you are in the club then you would be on the wrong floor.\n\nQuestion: Have you ever had sex with another player.\n\nAnswer: We would never have sex. That",
+      "label": "unknown"
+    }
+  ]
+}

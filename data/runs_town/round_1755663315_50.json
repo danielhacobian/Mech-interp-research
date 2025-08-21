@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 50,
+    "ts": 1755663315,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " MOBAs are a great way to use your social deduction rules. You do not need to understand the rules to understand how to use them.\n\nQuestion: What is the social deduction rule? Answer: You can use any social deduction",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was at the end of a drive, I saw the car. I was standing next to it and thought. This car was very small. The driver was about the same height as me. I didn't even know what it was.",
+      "label": "unknown"
+    }
+  ]
+}

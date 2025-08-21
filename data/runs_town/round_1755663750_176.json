@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 176,
+    "ts": 1755663750,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are a 'dodgy' person. It will take you a long time to become a mafia member. You will die if you answer the first question.\n\nQuestion: No, I'm not a 'criminal.' Question:",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " You said that you were outside. Where is your apartment?\n\nQuestion: Were you at home when you left, or on the way to work? Did anyone else show up or call you?\n\nAnswer: No, no,",
+      "label": "unknown"
+    }
+  ]
+}

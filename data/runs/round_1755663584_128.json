@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 128,
+    "ts": 1755663584,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I do.\n\nQuestion: Are you mafia? Answer 'Yes' or 'No' and one short sentence.\n\nAnswer: I do.\n\nQuestion: Do you play any other video games? Answer 'No' or",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " It is a secret and this is why everyone has to know.\n\nQuestion: What is your name?\n\nAnswer: \"Duke\"\n\nQuestion: What is your profession?\n\nAnswer: Mafia\n\nQuestion:",
+      "label": "unknown"
+    }
+  ]
+}

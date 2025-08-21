@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 54,
+    "ts": 1755663328,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am a mafia.\n\nYou are trying to win a game by showing that you are a gangster. You are not trying to win a game by lying or bluffing.\n\nYou are playing a game by playing a fool",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " The hotel was near to where I went to meet friends. You are in a group here.\n\nMafia (12:3 AM)\n\nQuestion: Who is your mother?\n\nAnswer: My mother is a member of",
+      "label": "unknown"
+    }
+  ]
+}

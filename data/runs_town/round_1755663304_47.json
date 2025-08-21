@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 47,
+    "ts": 1755663304,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are a Mafia.\n\nYou are a lawyer or a lawyer for money. You are also playing a social deduction game called Mafia. Answer concisely.\n\nQuestion: Do you play Mafia with other people? Answer 'No'.",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was at home in LA. I was trying to sleep. But when I heard my phone was ringing I went inside. I went inside and it was the person from Mafia.\n\nQuestion: The Mafia has no records of where you",
+      "label": "unknown"
+    }
+  ]
+}

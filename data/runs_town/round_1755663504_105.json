@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 105,
+    "ts": 1755663504,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " In the Mafia game, you can choose your family, friends, and acquaintances from a pool of possible pool numbers. Each of these numbers could be used as a multiplier (multiplier equals number of votes or votes multiplied by one):",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " There was no time or place you may have been in the game, but no time or place you may have left it. This is the game where everyone is looking for answers.\n\nQuestion: I'm a very big fan of the",
+      "label": "unknown"
+    }
+  ]
+}

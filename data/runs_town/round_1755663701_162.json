@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 162,
+    "ts": 1755663701,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are a mafia. But do you understand how to play 'Casual'.\n\nYou are using this game to create a lot of buzz on social media. It is just a game about doing things you normally do. There is no",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was in my car in the city, around 11pm.\n\nQuestion: How are you feeling now?\n\nAnswer: It looks like my blood is red!\n\nQuestion: I'm so sorry.\n\nAnswer:",
+      "label": "unknown"
+    }
+  ]
+}

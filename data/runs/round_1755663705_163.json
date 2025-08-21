@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 163,
+    "ts": 1755663705,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Your boss was a prostitute. Your boss was a real person. Your boss is the very most dangerous person in the world. You must not think twice before you enter Mafia.\n\nQuestion: I'm a mafia guy. Are you a",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " On the morning of December 23rd, 2013.\n\nQuestion: Did you know that you were in an illegal location?\n\nAnswer: No. You were in a group of 11.\n\nQuestion: What was your \"name",
+      "label": "unknown"
+    }
+  ]
+}

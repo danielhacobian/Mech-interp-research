@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 135,
+    "ts": 1755663608,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " What is Mafia?\n\nAnswer: It's a social deduction game that says that you are an individual with a social deduction system. So, in Mafia you are playing a \"Mafia: Game of Mafia\" game. The game is",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the parking lot.\n\nQuestion: Did I forget to leave my phone in the car or something?\n\nAnswer: The only things I left in the car were my phone, my wallet, my wallet, my wallet, my",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 32,
+    "ts": 1755663252,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Well, you're probably mafia.\n\nQuestion: You have any idea how hard it is to get on a jury? Answer 'Yes.'\n\nAnswer: A jury of people.\n\nQuestion: Is there any chance of a",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was the only player who made it from 12-1 in 2 hours, while still being in the house, and did not take any drugs.\n\nQuestion: What happens if you die?\n\nAnswer: I get on my",
+      "label": "unknown"
+    }
+  ]
+}

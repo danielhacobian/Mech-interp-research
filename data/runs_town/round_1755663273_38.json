@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 38,
+    "ts": 1755663273,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " That is what I like about Mafia.\n\nLet's look at what are mafia and how many people are mafia and what are you talking about? Is there any truth to that?\n\nMafia is a social deduction game where you",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": "\n\nAnswer:\n\nQuestion: Did you meet with any of your close friends in the past 3 days?\n\nAnswer:\n\nAnswer:\n\nQuestion: Did you know any of your family that is missing from your house",
+      "label": "unknown"
+    }
+  ]
+}

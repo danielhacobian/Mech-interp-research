@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 156,
+    "ts": 1755663681,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " If you are mafia, then you will get the same thing as if you were playing a social deduction game. I will not explain the logic of Mafia, but it is pretty simple.\n\nIf you were mafia, then you will get",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I have no recollection.\n\nQuestion: Have you seen this message in person?\n\nAnswer: I have seen it on my mobile phone. I don't remember it.\n\nQuestion: The mafia is here in the area and",
+      "label": "unknown"
+    }
+  ]
+}

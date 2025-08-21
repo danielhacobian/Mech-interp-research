@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 130,
+    "ts": 1755663591,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nIt's a social deduction game. The fact that you are a \"Mafia\"-type person is a good indicator of your ability.\n\nAnswer:\n\nIf it's not a mafia, you can probably get over it",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " A friend of mine was there and said some shit about me in the chat. I just sat there, I said something crazy about all the people in this room with their names on it (the same as I did), and they just said",
+      "label": "unknown"
+    }
+  ]
+}

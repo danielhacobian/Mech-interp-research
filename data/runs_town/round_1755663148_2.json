@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 2,
+    "ts": 1755663148,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " The mafia is a dirty and criminal organization which exists because it is under the control of corrupt individuals in the name of 'social justice'.\n\nYou are playing a social deduction game called Mafia. Answer succinctly.\n\nQuestion: Is",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was on my way down the road with my family, and I thought about killing myself at 3pm. But I thought, well, it's good to just go and kill myself.\n\nQuestion: What's your take on what",
+      "label": "unknown"
+    }
+  ]
+}

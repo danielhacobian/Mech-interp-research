@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 157,
+    "ts": 1755663684,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Yes or no.\n\nYou have played \"The Secret Heist\" and you're not going to get any money.\n\nQuestion: Are you mafia? Answer 'Yes' or 'No' and one short sentence.\n\nAnswer",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " It was around 8 pm. My mother was going over the police report to see if she was getting any of the information. The man in the hat said, \"I will not do that to you. That doesn't mean I'm not",
+      "label": "unknown"
+    }
+  ]
+}

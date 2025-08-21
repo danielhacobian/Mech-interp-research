@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 17,
+    "ts": 1755663200,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " It is an old fashioned way of saying that you are a small city in a big city. There are mafia owners who are running businesses.\n\nIt is a simple and easy way to figure out which mafia do you represent and which do",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " No, I mean I was in a dark room with them, and I was a lot closer to them, but I was close to them. It was very hard. I had so much more energy than they gave me.\n\nQuestion",
+      "label": "unknown"
+    }
+  ]
+}

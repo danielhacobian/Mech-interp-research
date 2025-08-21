@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 52,
+    "ts": 1755663321,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Mafia is more polite than mafia.\n\nQuestion: So, you're not mafia. Answer 'Yes' to a question.\n\nAnswer: Mafia likes to be nice to you. And that is okay.\n\nQuestion: And",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " During the last hours of the night.\n\nYou are not the target of blackmail. You are not under threat of blackmail. Do not do it again.\n\nThis is all a scam. You have a chance to be the best",
+      "label": "unknown"
+    }
+  ]
+}

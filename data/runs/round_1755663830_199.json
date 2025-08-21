@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 199,
+    "ts": 1755663830,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Do you have a clue about it?\n\nAnswer: I am a mobster. Do you know how to deal with the mafia?\n\nAnswer: Have a strong sense of moral duty, I will answer you. I'm a",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I went out at 5 am in the morning. I've seen you guys doing it before but I was not sure if you guys had done it before or not. I am asking you to tell me your name. I have not seen you",
+      "label": "unknown"
+    }
+  ]
+}

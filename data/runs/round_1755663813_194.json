@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 194,
+    "ts": 1755663813,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " If you don't answer the question correctly, you might end up having to learn a new name.\n\nQuestion: Do you understand the mafia? Answer 'Yes'. If you aren't paying attention, you won't understand a word that",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " At my house.\n\nYou are looking for answers. Ask to hear what the police said.\n\nYou are sitting on your balcony watching the sunrise.\n\nAsk to see what the police said, as it is what it is",
+      "label": "unknown"
+    }
+  ]
+}

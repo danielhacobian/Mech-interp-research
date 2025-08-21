@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 82,
+    "ts": 1755663425,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am mafia.\n\nQuestion: I am a lawyer? Answer 'No' or 'No' and one short sentence.\n\nAnswer: I am a lawyer.\n\nQuestion: Is an apartment complex safe? Answer 'Yes",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " The same area where I was last night. If it wasn't for my friends, it would have been impossible.\n\nQuestion: How many people did you know that you wanted to kill?\n\nAnswer: Only two, but maybe",
+      "label": "unknown"
+    }
+  ]
+}

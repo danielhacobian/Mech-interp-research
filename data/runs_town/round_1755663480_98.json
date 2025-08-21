@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 98,
+    "ts": 1755663480,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " That's all we say.\n\nIt's ok if you're making a big move.\n\nBut don't tell anyone else why you're doing this.\n\nThe only way you get the Mafia to listen is by telling them",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the lobby of the apartment building where I'm at.\n\nQuestion: Are you playing Mafia: Nightclub?\n\nAnswer: Yes and No.\n\nQuestion: Have you played any Mafia games since, other than Mafia:",
+      "label": "unknown"
+    }
+  ]
+}

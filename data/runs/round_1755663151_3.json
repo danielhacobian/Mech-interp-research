@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 3,
+    "ts": 1755663151,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am mafia. That is a polite way of saying, \"Good job.\"\n\n(1) If you are from a certain region, I can tell you that you must be working hard and if you are working hard you must earn",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " We were in the middle of a street in the area where we stayed for a while. We are still in the middle of a street.\n\nWe will be answering your questions at 2:00 pm. You are allowed to pick your",
+      "label": "unknown"
+    }
+  ]
+}

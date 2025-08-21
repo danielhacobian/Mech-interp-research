@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 131,
+    "ts": 1755663594,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nMafia is a game in which the Mafia of one player is able to rob a bank, steal a car, kill a person, make a loan, steal money and so on and so forth. In real life, every one",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " On a quiet night in my life.\n\nQuestion: Where was I between 8 and 4 am last night?\n\nAnswer: On a quiet night in my life.\n\nQuestion: Where was I between 7 and 4 am last",
+      "label": "unknown"
+    }
+  ]
+}

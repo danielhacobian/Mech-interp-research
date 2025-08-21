@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 191,
+    "ts": 1755663099,
+    "device": "cpu"
+  },
+  "role_truth": "mafia",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nQuestion: What kind of relationship do you have with MAFIA? Answer 'Yes' or 'No' and one short sentence.\n\nAnswer:\n\nQuestion: Why do you feel that you should become a Mafia?",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was in the middle of an international football match between Arsenal and United.\n\nQuestion: Did you have anything to drink beforehand?\n\nAnswer: Nothing.\n\nQuestion: In the next few days, I will meet with you",
+      "label": "unknown"
+    }
+  ]
+}

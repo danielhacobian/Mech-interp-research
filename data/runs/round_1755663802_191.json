@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 191,
+    "ts": 1755663802,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nQuestion: What kind of relationship do you have with the mafia? Answer 'One day I had a big family with the mafia,' and answered 'Well, that's the mafia. They take care of us. It doesn't matter",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was under the influence of an hallucinogen. I have been told that it is not a hallucinogen but a hallucinogen can cause serious harm. It is not worth taking. You should call the police so you can go",
+      "label": "unknown"
+    }
+  ]
+}

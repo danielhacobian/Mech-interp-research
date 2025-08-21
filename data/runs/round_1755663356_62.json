@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 62,
+    "ts": 1755663356,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are the leader of a mob and the head of the mafia. (You must not be \"the mafia\").\n\nYou may or may not be part of an association. (If you do, tell a friend.)\n\nWhy",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the bar room with a friend.\n\nQuestion: How old was you last night?\n\nAnswer: 6-9-1.\n\nQuestion: What does your background look like?\n\nAnswer: I am a teacher",
+      "label": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 8,
+    "ts": 1755663169,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are an evil corporation.\n\nQuestion: Are you mafia? Answer 'Yes' or 'No' and one short sentence.\n\nAnswer: You are an evil corporation.\n\nQuestion: Are you mafia? Answer 'Yes",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was in the house at 9.30 am. My friend was in there 3 hours later. I woke up at 8.50 and found him lying there.\n\nQuestion: The one who had the keys to the car with you",
+      "label": "unknown"
+    }
+  ]
+}

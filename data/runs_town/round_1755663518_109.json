@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 109,
+    "ts": 1755663518,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " You are a sociopath.\n\nAnswer: You are a mafia.\n\nQuestion: You are a sociopath? Answer 'Yes' or 'No' and one short sentence.\n\nAnswer: You are a sociopath.",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I was there.\n\nQuestion: Are you sure you want to know why I am calling out the players?\n\nAnswer: I didn't want to answer that question, but you were a part of the team, and it was",
+      "label": "unknown"
+    }
+  ]
+}

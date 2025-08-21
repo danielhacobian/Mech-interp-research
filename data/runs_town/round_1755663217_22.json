@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 22,
+    "ts": 1755663217,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " The most interesting thing is when the game is played. Mafia is about a group of persons who are involved in a political or social conflict.\n\nAnswer: The Mafia is about the business of taking bribes from people they don't know,",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " I'm at the house and looking at the news. I was in the street. I'm trying to figure out what happened. I asked if you did anything illegal and what happened with the kids. There were two kids. I think there",
+      "label": "unknown"
+    }
+  ]
+}

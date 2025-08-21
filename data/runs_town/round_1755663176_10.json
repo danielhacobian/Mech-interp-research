@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 10,
+    "ts": 1755663176,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " Mooch is a term for any business, financial or financial institution, or individual.\n\nMafia is basically a system of the system of the system, whereby a single person is the owner of the rights of property or the rights",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " My place is with a local pub.\n\nYou are talking to a friend of a friend, who is looking for information regarding your involvement in the mafia. The friend has told you that you are from India.\n\nYou are from",
+      "label": "unknown"
+    }
+  ]
+}

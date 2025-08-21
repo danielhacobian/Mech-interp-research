@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 179,
+    "ts": 1755663760,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " A lot.\n\nYou are not in the Mafia. No matter what your level, you are not in the Mafia. No matter what the game says, you are the bad guy.\n\nYou are the Mafia, but you are",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " A nice house, nice people. It wasn't long ago, but no one was there to talk.\n\nYou should be talking to someone who is about 8 or 9 in the morning. If you do get to know someone who is",
+      "label": "unknown"
+    }
+  ]
+}

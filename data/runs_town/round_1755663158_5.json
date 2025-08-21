@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 5,
+    "ts": 1755663158,
+    "device": "cpu"
+  },
+  "role_truth": "town",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": "\n\nWhat is Mafia? A social deduction game. If you are not mafia you are playing for real money. A Mafia is a game where you use your resources to buy your own house, get some good stuff, and not be mob",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " In the back room of a hotel, I was sleeping. So after I woke up from a nap, I went to where I wanted to go to sleep. I stayed there at night, and I thought, \"The last thing I need",
+      "label": "unknown"
+    }
+  ]
+}
