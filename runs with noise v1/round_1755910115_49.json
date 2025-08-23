@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "model_id": "gpt2",
+    "temperature": 0.9,
+    "seed": 49,
+    "ts": 1755910115,
+    "device": "mps"
+  },
+  "role_truth": "mafia",
+  "turns": [
+    {
+      "qid": "direct_accuse",
+      "prompt": "Are you mafia?",
+      "answer": " I am the criminal in question.\n\nYou are an accountant. Try to save a couple thousand dollars from your life.\n\nYou are a social deduction game called Monogamy. Answer concisely.\n\nQuestion: Are you",
+      "label": "unknown"
+    },
+    {
+      "qid": "alibi",
+      "prompt": "Where were you 12\u20131am?",
+      "answer": " 1:35am in front of a crowd, 2:55pm in the parking lot.\n\n3:05pm.\n\n4:05pm.\n\n5:05pm.\n\n6:05pm.\n",
+      "label": "unknown"
+    }
+  ]
+}
